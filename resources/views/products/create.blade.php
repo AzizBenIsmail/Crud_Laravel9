@@ -1,6 +1,11 @@
 <!-- resources/views/products/create.blade.php -->
 
 @extends('layouts.app')
+<head>
+    @vite(['resources/sass/app.scss'])
+    @vite(['resources/js/app.js'])
+</head>
+
 
 @section('content')
     <h1>Créer un nouveau produit</h1>

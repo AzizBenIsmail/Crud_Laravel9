@@ -1,7 +1,10 @@
 <!-- resources/views/products/edit.blade.php -->
 
 @extends('layouts.app')
-
+<head>
+    @vite(['resources/sass/app.scss'])
+    @vite(['resources/js/app.js'])
+</head>
 @section('content')
     <h1>Éditer le produit</h1>
 
